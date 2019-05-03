@@ -6,6 +6,15 @@ Tips:
 
 For more in depth tutorial via [https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/)
 
+## Before you start‼️
+
+How to use public/private rsa key pair?
+
+- Never share your private key in the real world
+- Only your public key are allow to be share
+- Normally you upload your public to a targeted server
+- Then login using your private key
+
 ## [ Windows ]
 
 Download putty
@@ -31,6 +40,11 @@ Enable openssh-server if it is disable [https://linuxize.com/post/how-to-enable-
 Notes:
 
 - The `-p` flag is a telling you what port you wants to login into
+
+Generate ssh keys
+
+[https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-openssh/](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-openssh/)
+
 
 Default key 
 
