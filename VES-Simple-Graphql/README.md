@@ -56,3 +56,9 @@ Copy & Paste the following code in `server.js`
     app.listen({ port: 4000 }, () =>
         console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`)
     );
+
+
+
+# Run the example server
+
+    $ node example-server.js
